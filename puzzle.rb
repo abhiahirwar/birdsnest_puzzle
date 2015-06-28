@@ -12,4 +12,13 @@ module Puzzle
        number.to_s                        #return original number
     end
   end
+
+  def self.print_numbers
+    user_string = ""
+    (1..100).each do |n|
+      user_string << check_number(n)
+      user_string << ", "
+    end
+    puts user_string
+  end
 end
