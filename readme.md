@@ -50,4 +50,4 @@ This solution remove all spaces and special character, revesre string and check 
 Method Name: `is_palindromeString`
 
 
-Git Repo: https://github.com/abhiahirwar/puzzle
+Git Repo: https://github.com/abhiahirwar/birdsnest_puzzle
