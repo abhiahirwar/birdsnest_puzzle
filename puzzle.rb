@@ -21,4 +21,8 @@ module Puzzle
     end
     puts user_string
   end
+
+  def self.array_reverse(array)
+    reverse_array = array.reverse
+  end
 end
