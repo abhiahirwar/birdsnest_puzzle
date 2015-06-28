@@ -35,4 +35,18 @@ describe Puzzle do
       expect { Puzzle.print_numbers }.to output(CORRECT_RESULT).to_stdout
     end
   end
+
+  describe ".array_reverse" do
+    it "should returns a reverse array" do
+      array = [1,2,3]
+      reverse_array = Puzzle.array_reverse(array)
+      expect(reverse_array).to eq [3,2,1]
+    end
+
+    it "should not return same array" do
+      array = [1,2,3]
+      reverse_array = Puzzle.array_reverse(array)
+      expect(reverse_array).not_to eq array
+    end
+  end
 end
